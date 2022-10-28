@@ -1,0 +1,33 @@
+section h2{
+  font-size: 30px;
+}
+
+section div{
+  width:49%;
+  display:inline-block;
+  overflow: hidden;
+  vertical-align: top;
+}
+
+section div:nth-child(even)
+{padding: 20px 0 0 10px;}
+
+section h2,section p {
+  margin: 0 auto 0 16%;
+  width: 75%;
+}
+
+section h2 {font-size: 40px;
+  margin-top: 135px;
+  margin-bottom:30px;
+  line-height:36px;}
+
+section p {
+  font-size: 26px;
+  line-height:36px;}
+
+section{
+  font-size: 40px;
+  margin-top: 140px;
+  margin-bottom: 36px;
+}
