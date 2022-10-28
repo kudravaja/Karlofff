@@ -1,0 +1,1150 @@
+div {
+  font-family: 'Karloff positive pro';
+}
+
+.nav{
+  transition: all .8s ease-out;
+  margin: 0px 0px 268px 0px;
+  padding: 48px 0px 0px 96px;
+  font-size: 30px;
+  display:flex;
+  align-items: center;
+  text-decoration: none;
+}
+.nav-item1{
+  margin-right: 140px;
+  color: #D33A27;
+  text-decoration: none;
+}
+.nav-item{
+  margin-right: 70px;
+  color: black;
+  text-decoration: none;
+}
+
+.header{
+position: relative;
+}
+
+.img {
+position: absolute;
+overflow: hidden;
+top: 129px;
+height: 784px;
+width: 1440px;
+background-image: url(images/museum.jpg);
+transition-timing-function: ease;
+transition-duration: 0.5s;
+}
+.img:hover {
+background-image: url(images/museum2.jpg);
+transition-timing-function: ease;
+transition-duration: 1s;
+}
+
+a {
+text-decoration: none;
+}
+
+text {
+  display: block;
+  padding: 160px 0px 0px 0px;
+}
+
+
+h1 {
+  margin: 100px 0px 100px 0px;
+  font-family: 'Karloff positive pro';
+  font-size: 90px;
+  line-height: 100px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 34px;
+  margin: 96px 0px 0px 32px;
+  width:300px;
+}
+
+h5 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+h6 {
+  margin-top: -60px;
+  font-family: 'Karloff positive pro';
+  font-size: 40px;
+  text-align: center;
+}
+
+p {
+  font-size: 22px;
+  margin: 40px 0px 20px 0px;
+  line-height: 26px;
+}
+
+p1 {
+display: flex;
+width: 100px;
+font-size: 28px;
+line-height: 42px;
+text-align: center;
+margin: 30px 0px 10px 50px;
+}
+
+p2 {
+display: flex;
+width: 320px;
+font-size: 50px;
+line-height: 70px;
+text-align: center;
+margin-top: 20px;
+padding: 0px 60px 0px 70px;
+}
+
+p3 {
+margin:5px 0px 0px 0px;
+font-family:'Karloff positive pro';
+font-size: 124px;
+text-align: center;
+transition: 0.6s;
+}
+p4 {
+margin:5px 0px 0px 0px;
+font-family:'KarloffNegativeProMed';
+font-size: 124px;
+text-align: center;
+transition: 0.6s;
+}
+p5 {
+margin:10px 0px 0px 0px;
+font-family:'TUMPEZ+KarloffNeutralPro-Reg';
+font-size: 124px;
+text-align: center;
+transition: 0.6s;
+}
+
+p3:hover {
+margin:5px 0px 0px 0px;
+font-family:'Karloff positive pro';
+font-size: 124px;
+text-align: center;
+opacity: 0;
+transition: 0.2s;
+}
+p4:hover {
+margin:5px 0px 0px 0px;
+font-family:'KarloffNegativeProMed';
+font-size: 124px;
+text-align: center;
+opacity: 0;
+transition: 0.2s;
+}
+p5:hover {
+margin:10px 0px 0px 0px;
+font-family:'TUMPEZ+KarloffNeutralPro-Reg';
+font-size: 124px;
+text-align: center;
+opacity: 0;
+transition: 0.2s;
+}
+
+p6 {
+font-family:'Karloff positive pro';
+font-size: 205px;
+text-align: center;
+transition: 0.61s;
+}
+p7 {
+font-family:'KarloffNegativeProMed';
+font-size: 205px;
+text-align: center;
+transition: 0.6s;
+}
+p8 {
+margin:10px 0px 0px 0px;
+font-family:'TUMPEZ+KarloffNeutralPro-Reg';
+font-size: 205px;
+text-align: center;
+transition: 0.6s;
+}
+
+p6:hover {
+font-family:'Karloff positive pro';
+font-size: 205px;
+text-align: center;
+opacity: 0;
+transition: 0.3s;
+}
+p7:hover {
+font-family:'KarloffNegativeProMed';
+font-size: 205px;
+text-align: center;
+opacity: 0;
+transition: 0.3s;
+}
+p8:hover {
+margin:10px 0px 0px 0px;
+font-family:'TUMPEZ+KarloffNeutralPro-Reg';
+font-size: 205px;
+text-align: center;
+opacity: 0;
+transition: 0.3s;
+}
+hr {
+  background-color: black;
+  border: none;
+  margin: 0;
+}
+
+.one {
+  margin-top: 130px;
+  left: 42px;
+}
+.one-header {
+  font-family: 'Karloff positive pro';
+  font-size: 200px;
+  text-align: center;
+}
+.line01 {
+  position: relative;
+  height: 3px;
+  width: 1440px;
+  top:524px;
+}
+
+.line03 {
+  height: 3px;
+  width: 1440px;
+}
+.line04 {
+  position: absolute;
+  height: 3px;
+  width: 1440px;
+  top:1407px;
+}
+
+.lines1-1{
+  position: absolute;
+  height: 3px;
+  width: 10px;
+  top:380px;
+  background-color: #D33A27;
+  animation: move1 10s infinite;
+  animation-delay: 2s;
+}
+
+@keyframes move1 {
+  from {width: 10px;}
+  to {width: 1039px;}
+}
+.lines1-2{
+  position: absolute;
+  height: 3px;
+  width: 10px;
+  top:312px;
+  background-color: #D33A27;
+  animation: move2 10s infinite;
+  animation-delay: 2s;
+}
+@keyframes move2 {
+  from {width: 10px;}
+  to {width: 1039px;}
+}
+.lines1-3{
+  position: absolute;
+  height: 3px;
+  width: 10px;
+  top:274px;
+  background-color: #D33A27;
+  animation: move3 10s infinite;
+  animation-delay: 2s;
+}
+@keyframes move3 {
+  from {width: 10px;}
+  to {width: 1039px;}
+}
+
+.lines2-1{
+  position: absolute;
+  height: 54px;
+  width: 3px;
+  top:220px;
+  margin-left:290px;
+  background-color: #D33A27;
+  animation: move2-1 10s infinite;
+  animation-delay: 2s;
+}
+@keyframes move2-1 {
+  from {height: 0px;}
+  to {height: 54px;}
+}
+.lines2-2{
+  position: absolute;
+  height: 54px;
+  width: 3px;
+  top:218px;
+  margin-left:470px;
+  background-color: #D33A27;
+  animation: move2-2 10s infinite;
+  animation-delay: 2s;
+}
+@keyframes move2-2 {
+  from {height: 0px;}
+  to {height: 54px;}
+}
+.lines2-3{
+  position: absolute;
+  height: 96px;
+  width: 3px;
+  top:218px;
+  margin-left:700px;
+  background-color: #D33A27;
+  animation: move2-3 10s infinite;
+  animation-delay: 2s;
+}
+@keyframes move2-3 {
+  from {height: 0px;}
+  to {height: 96px;}
+}
+.lines2-4{
+  position: absolute;
+  height: 96px;
+  width: 3px;
+  top:218px;
+  margin-left:870px;
+  background-color: #D33A27;
+  animation: move2-4 10s infinite;
+  animation-delay: 2s;
+}
+@keyframes move2-4 {
+  from {height: 0px;}
+  to {height: 96px;}
+}
+
+.lines3-1{
+  position: absolute;
+  height: 54px;
+  width: 3px;
+  top:380px;
+  margin-left:170px;
+  background-color: #D33A27;
+  animation: move3-1 10s infinite;
+  animation-delay: 2s;
+}
+@keyframes move3-1 {
+  from {height: 0px;}
+  to {height: 54px;}
+}
+.lines3-2{
+  position: absolute;
+  height: 117px;
+  width: 3px;
+  top:315px;
+  margin-left:560px;
+  background-color: #D33A27;
+  animation: move3-2 10s infinite;
+  animation-delay: 2s;
+}
+@keyframes move3-2 {
+  from {height: 0px;}
+  to {height: 117px;}
+}
+.lines3-3{
+  position: absolute;
+  height: 161px;
+  width: 3px;
+  top:274px;
+  margin-left:750px;
+  background-color: #D33A27;
+  animation: move3-3 10s infinite;
+  animation-delay: 2s;
+}
+@keyframes move3-3 {
+  from {height: 0px;}
+  to {height: 161px;}
+}
+.lines3-4{
+  position: absolute;
+  height: 117px;
+  width: 3px;
+  top:315px;
+  margin-left:920px;
+  background-color: #D33A27;
+  animation: move3-4 10s infinite;
+  animation-delay: 2s;
+}
+@keyframes move3-4 {
+  from {height: 0px;}
+  to {height: 117px;}
+}
+
+.p {
+  top:90px;
+  position: relative;
+  font-size: 22px;
+  left:-670px;
+}
+
+text7 {
+  position: absolute;
+  margin-left:390px;}
+text8 {
+  position: absolute;
+  margin-left:600px}
+text9 {
+  width: 140px;
+  line-height: 24px;
+  position: absolute;
+  top:-24px;
+  margin-left:784px}
+text10 {
+  position: absolute;
+  top:-24px;
+  line-height: 24px;
+  margin-left:980px}
+
+  .p2 {
+    top:340px;
+    position: relative;
+    font-size: 22px;
+    left:-670px;
+  }
+
+  text11 {
+    position: absolute;
+    margin-left:300px;}
+  text12 {
+    position: absolute;
+    margin-left:670px}
+  text13 {
+    width: 140px;
+    line-height: 24px;
+    position: absolute;
+    top:-0px;
+    margin-left:820px}
+  text14 {
+    position: absolute;
+    top:-0px;
+    line-height: 24px;
+    margin-left:1020px}
+
+
+.kartini {
+  margin: -17px 90px 0px 90px;
+  position: relative;
+  left: -1351px;
+  width: 1440px;
+  display: flex;
+  justify-content: space-between;
+}
+.kartini div {
+  margin: 0px 50px;
+}
+
+.kartina1{
+  height: 660px;
+  width: 1251px;
+  display: flex;
+}
+
+.kartina2{
+  height: 660px;
+  width: 1251px;
+}
+
+.kartina3{
+  height: 660px;
+  width: 1251px;
+}
+
+.three {
+  top: 60px;
+  overflow: hidden;
+  height: 1040px;
+  position: relative;
+}
+
+.exposition1{
+  display: flex;
+  margin-left: 360px;
+  position: relative;
+}
+
+.exposition2{
+  display: flex;
+  margin-left: 360px;
+  position: relative;
+}
+.exposition3{
+  display: flex;
+  margin-left: 360px;
+  position: relative;
+}
+.exposition4{
+  display: flex;
+  margin-left: 360px;
+  position: relative;
+}
+.exposition5{
+  display: flex;
+  margin-left: 360px;
+  position: relative;
+}
+.exposition6{
+  display: flex;
+  margin-left: 360px;
+  position: relative;
+}
+.exposition7{
+  display: flex;
+  margin-left: 360px;
+  position: relative;
+}
+.light {
+  position: absolute;
+  left: 388px;
+  top:225px
+}
+.expositiontxt{
+  width:46.5%;
+  float: right;
+  display: inline;
+}
+.scroll {
+  display: flex;
+  justify-content: space-between;
+  top:-60px;
+  left:-100px;
+  position:relative;}
+
+.expositionimg {
+  top:-60px;
+  left:-100px;
+  position:relative;
+  display: flex;
+  justify-content: space-between;
+  animation: move8 40s infinite;
+}
+@keyframes move8 {
+  from {left: -756px;}
+  to {left: -4211px;}
+}
+.expositionimg1 {
+  position:absolute;
+  top: 100px;
+}
+.expositionimg3 {
+  margin:0px 0px 0px 180px;
+}
+
+.four {
+  top:16px;
+  position: relative;
+  height: 1500px;
+}
+.four2 {
+  position: relative;
+  margin-top: -80px;
+  height: 1190px;
+  background-color: rgba(211, 58, 39, 0.05);
+}
+
+#rectangleman{
+  height: 1099px;
+  width: 1246px;
+  border: 3px solid #D33A27;
+  margin: 100px 0px 0px 95px;
+  position: relative;
+}
+.firstline{
+  height: 500px;
+  width: 1244px;
+  display: flex;
+}
+
+.man1{
+  height: 500px;
+  width: 415px;
+  border: 3px solid #D33A27;
+}
+.man2{
+  height: 500px;
+  width: 415px;
+  border: 3px solid #D33A27;
+  overflow: hidden;
+  background-image: url(images/grid.svg);
+  position: relative;
+}
+span{
+  opacity: 0.59;
+  position:absolute;
+  font-family:'KarloffNegativeProMed';
+  font-size: 1100px;
+  bottom: -164px;
+  left:-30px;
+  color: #AAAAAA;
+}
+spanb{
+  opacity: 0.6;
+  position:absolute;
+  font-family:'Karloff positive pro';
+  font-size: 1300px;
+  color: #000000;
+  left:-140px;
+  bottom: -530px;
+}
+spanc{
+  opacity: 0.7;
+  position:absolute;
+  font-family:'Karloff positive pro';
+  font-size: 80px;
+  bottom: 84px;
+  left:20px;
+  color: #000000;
+}
+
+span1{
+  position:absolute;
+  font-family:'Karloff positive pro';
+  font-size: 30px;
+  bottom: 534px;
+  left:30px;
+  color: #000000;
+}
+span3{
+  position:absolute;
+  width:770px;
+  font-family:'Karloff positive pro';
+  font-size: 22px;
+  bottom: 326px;
+  left:30px;
+  line-height: 26px;
+  color: #000000;
+}
+.man3{
+  height: 250px;
+  width: 416px;
+  border: 3px solid #D33A27;
+  margin: -5px 0px 0px -3px;
+  overflow: hidden;
+  position: relative;
+}
+.man4{
+  height: 250px;
+  width: 414px;
+  border: 3px solid #D33A27;
+  margin: 0px 0px -5px 0px;
+  /* overflow: hidden; */
+  position: relative;
+}
+
+.dvekartini {
+  background-image: url(images/grid.svg);
+  height: 500px;
+  width: 415px;
+  display: flex;
+  border: 3px solid #D33A27;
+  flex-direction: column;
+}
+
+.secondline{
+  height: 300px;
+  width: 1244px;
+  display: flex;
+}
+
+.man11{
+  height: 300px;
+  width: 830px;
+  border: 3px solid #D33A27;
+}
+.man21{
+  background-image: url(images/riba.jpg);
+  height: 300px;
+  width: 416px;
+  border: 3px solid #D33A27;
+}
+
+.thirdline{
+  height: 299px;
+  width: 1244px;
+  display: flex;
+}
+
+.man12{
+    background-image: url(images/alfabet.jpg);
+  height: 299px;
+  width: 415px;
+  border: 3px solid #D33A27;
+}
+.man22{
+    background-image: url(images/caps.jpg);
+  height: 299px;
+  width: 415px;
+  border: 3px solid #D33A27;
+}
+.man32{
+  background-image: url(images/9.jpg);
+  height: 299px;
+  width: 415px;
+  border: 3px solid #D33A27;
+}
+
+.girl1{
+  margin: 0px 0px 10px 94px;
+  height: 84px;
+  width: 1246px;
+  border: 3px solid black;
+}
+.girl2{
+  margin:0px 0px 0px 94px;
+  height: 84px;
+  width: 1246px;
+  border: 3px solid black;
+}
+.girltablicka{
+  margin-top:100px;
+  position: relative;
+  margin-left: 566px;
+  height: 129px;
+  width: 312px;
+  border: 3px solid black;
+  background-image: url(images/frame.svg);
+}
+
+span4{
+  position:absolute;
+  width:300px;
+  font-family:'Karloff positive pro';
+  font-size: 35px;
+  bottom: 78px;
+  left:10px;
+  color: #D33A27;
+}
+span5{
+  position:absolute;
+  width:270px;
+  text-align: center;
+  font-family:'Karloff positive pro';
+  font-size: 22px;
+  bottom: 12px;
+  left:14px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.text1{
+  margin-left: 110px;
+  position: relative;
+  top:25px;
+  width:1200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text2{
+  margin-left: 110px;
+  position: relative;
+  top:42px;
+  width:1200px;
+  display: flex;
+  justify-content: space-between;
+}
+.girl{
+  position: absolute;
+  top: 480px;
+}
+
+.composition{
+  margin-top: 200px;
+  position: absolute;
+}
+.five {
+  top:100px;
+position: relative;
+height: 2300px;
+}
+
+
+  #rectanglekartina2 {
+  margin: 0px 0px 0px 0px;
+  border: 2px solid black;
+  height: 660px;
+  width: 1251px;
+  border: 2px solid black;
+}
+
+  #rectanglekartina21 {
+    margin: 30px 35px 30px 35px;
+    border: 2px solid black;
+    height: 600px;
+    width: 1181px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 150px;
+  }
+    #rectanglekartina22 {
+      margin: 60px 72px 60px 72px;
+      height: 480px;
+      width: 1039px;
+      background: rgba(211, 58, 39, 0.1);
+      text-align: center;
+
+    }
+
+#rectanglekartina3 {
+    margin: 0px 0px 0px 0px;
+    border: 2px solid black;
+    height: 660px;
+    width: 1251px;
+    border: 2px solid black;
+  }
+
+  #rectanglekartina31 {
+    margin: 30px 35px 30px 35px;
+    border: 2px solid black;
+    height: 600px;
+    width: 1181px;
+    border: 2px solid black;
+    }
+
+  #rectanglekartina4 {
+    margin: 0px 0px 0px 0px;
+    border: 2px solid black;
+    height: 660px;
+    width: 1251px;
+    border: 2px solid black;
+    }
+
+    #rectanglekartina41 {
+        margin: 30px 35px 30px 35px;
+        border: 2px solid black;
+        height: 600px;
+        width: 1181px;
+        border: 2px solid black;
+      }
+
+
+  #rectanglekartinatxt1 {
+    margin: 80px 30px 27px 300px;
+    width: 840px;
+    height: 160px;
+    border: 2px solid black;
+    text-align: left;
+    background-image: url(images/frame2.svg);
+  }
+    #rectanglekapli2 {
+      margin-top: -3px;
+      margin-left:-3px;
+      width: 651px;
+      height: 302px;
+      border: 3px solid black;
+      border-radius: 300px;
+      text-align: center;
+    }
+      #txtkartina1 {
+        font-family: 'Karloff positive pro';
+        font-size: 22px;
+        line-height: 28px;
+        padding: 27px 30px 27px 30px;
+      }
+
+.two {
+  top: -20px;
+  position: relative;
+  overflow: hidden;
+}
+.h1last {
+  margin-top: 594px;
+  text-align: center;
+}
+
+.h2last {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.h2table {
+  margin: 25px 0px 20px 0px;
+  font-size: 30px;
+}
+
+.h3table {
+  width: 580px;
+  margin: 0px 0px 35px 0px;
+  color: #555555;
+}
+
+.Aa{
+  font-family: 'Karloff positive pro';
+  height: 500px;
+  width: 1440px;
+  top:100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Aastand{
+  font-family: 'Karloff positive pro';
+  height: 580px;
+  width: 450px;
+  margin: 10px 0px 0px 10px;
+}
+
+.Aatext{
+  font-family: 'Karloff positive pro';
+  height: 550px;
+  width: 300px;
+  left: 200px;
+  margin-top: 110px;
+}
+
+.KarloffPositivePro{
+  background-image: url(images/frame1.svg);
+  height: 485px;
+  width: 341px;
+  left: 95px;
+  margin: 0px 0px 0px 60px;
+
+}
+
+.Bb{
+  margin: 220px 0px 0px 0px;
+  height: 500px;
+  width: 1440px;
+  top:100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Bbstand{
+  height: 550px;
+  width: 500px;
+  margin: 10px 0px 0px 60px;
+}
+
+.Bbtext{
+  font-family: 'Karloff positive pro';
+  height: 550px;
+  width: 276px;
+  left: 200px;
+  margin: 30px 40px 0px 30px;
+}
+
+.KarloffNegativeProMed{
+  background-image: url(images/frame1.svg);
+  font-family: 'KarloffNegativeProMed';
+  height: 485px;
+  width: 341px;
+  left: 95px;
+  margin: 0px 0px 0px 50px;
+}
+
+.Vv{
+  margin: 220px 0px 0px 0px;
+  height: 500px;
+  width: 1380px;
+  top:100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Vvstand{
+  height: 550px;
+  width: 550px;
+  margin: 0px 0px 0px 50px;
+}
+
+.Vvtext{
+  font-family: 'Karloff positive pro';
+  height: 550px;
+  width: 284px;
+  left: 200px;
+  margin: 30px 40px 0px 0px;
+}
+
+.TUMPEZKarloffNeutralProReg{
+  background-image: url(images/frame1.svg);
+  font-family: 'TUMPEZ+KarloffNeutralPro-Reg';
+  height: 485px;
+  width: 341px;
+  left: 95px;
+  margin: 0px 0px 0px 80px;
+}
+
+.five2{
+  top:270px;
+  position: relative;
+  height: 750px;
+  display: flex;
+  justify-content: space-between;
+}
+.plakat1{
+  height: 500px;
+  width: 380px;
+  border: 3px solid black;
+  margin-left: 100px;
+}
+.plakat2{
+  height: 500px;
+  width: 380px;
+  border: 3px solid black;
+  margin-right: 100px;
+}
+.plakat3{
+  height: 500px;
+  width: 380px;
+  border: 3px solid black;
+}
+
+h9 {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  font-family:'TUMPEZ+KarloffNeutralPro-Reg';
+  font-size: 140px;
+  text-align: center;
+  color: #D33A27;
+}
+h10 {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  font-family:'KarloffNegativeProMed';
+  font-size: 140px;
+  text-align: center;
+  color: #D33A27;
+}
+h11 {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  font-family:'Karloff positive pro';
+  font-size: 140px;
+  text-align: center;
+  color: #D33A27;
+}
+
+p9 {
+  line-height: 80px;
+  margin-top: 40px;
+  display: flex;
+  text-align: center;
+  font-family:'TUMPEZ+KarloffNeutralPro-Reg';
+  font-size: 65px;
+}
+p10 {
+  line-height: 80px;
+  margin-top: 40px;
+  display: flex;
+  text-align: center;
+  font-family:'KarloffNegativeProMed';
+  font-size: 65px;
+  text-align: center;
+}
+p11 {
+  line-height: 80px;
+  margin-top: 40px;
+  display: flex;
+  text-align: center;
+  font-family:'Karloff positive pro';
+  font-size: 65px;
+  text-align: center;
+}
+.nitki {
+  margin: -100px 0px 0px 30px;
+}
+
+.nitka {
+  margin: -30px 0px 0px 650px;
+}
+
+.five3{
+  margin-top:100px;
+  display: flex;
+  justify-content: space-between;
+  width:1400px;
+  margin-bottom: 100px;
+}
+.text3 {
+  width:100px;
+  margin: 0px 50px 0px 100px;
+  font-size: 24px;
+  line-height: 28px;
+}
+.text4 {
+  width:300px;
+  margin: 0px 50px 0px 0px;
+  font-size: 22px;
+  line-height: 26px;
+}
+.text5 {
+  width:300px;
+  margin: 0px 50px 0px 0px;
+  font-size: 22px;
+  line-height: 26px;
+}
+.text6 {
+  width:290px;
+  margin: 0px 50px 0px 0px;
+  font-size: 22px;
+  line-height: 26px;
+}
+.tickets {
+  width:1440px;
+  top:100px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-direction:row-reverse;
+  overflow-x: auto;
+}
+.six {
+  margin-top:110px;
+  height: 900px
+}
+.seven {
+position: relative;
+height: 910px;
+width: 1444px;
+background-image: url(images/kontakti.svg);
+display: grid;
+align-content: space-around;
+justify-items: center;
+overflow: hidden;
+transition-duration: 3s;
+}
+.kontaktilayer {
+  position: absolute;
+  height: 910px;
+  width: 1444px;
+  background-image: url(images/kontaktilayer.svg);
+}
+
+.seven:hover {
+background-image: url(images/kontakti2.svg);
+transition-duration: 3s;
+}
+
+p12{
+  font-family:'Karloff positive pro';
+  font-size:172px;
+  color: white;
+  margin-top:630px;
+  color:#444444;
+}
+h12{
+  font-family:'Karloff positive pro';
+  font-size:90px;
+  color: white;
+  margin-top: 74px;
+}
+.icons {
+  width: 420px;
+  position: absolute;
+  top:600px;
+  display:flex;
+  justify-content: space-between;
+}
